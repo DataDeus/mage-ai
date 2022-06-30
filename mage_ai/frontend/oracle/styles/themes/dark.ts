@@ -30,11 +30,6 @@ import {
   DARK_CONTENT_DISABLED,
   DARK_CONTENT_INVERTED,
   DARK_CONTENT_MUTED,
-  LIGHT_CONTENT_ACTIVE,
-  LIGHT_CONTENT_DEFAULT,
-  LIGHT_CONTENT_DISABLED,
-  LIGHT_CONTENT_INVERTED,
-  LIGHT_CONTENT_MUTED,
 } from '../colors/content';
 
 // eslint-disable-next-line import/no-anonymous-default-export
@@ -64,7 +59,7 @@ export default {
     muted: SILVER,
     navigation: '#EDEDED',
     page: WHITE,
-    row: LIGHT,
+    row: DARK_CONTENT_INVERTED,
     scrollbarThumb: 'rgba(0, 0, 0, 0.5)',
     scrollbarThumbHover: 'rgba(255, 255, 255, 0.3)',
     scrollbarTrack: 'rgba(39, 42, 47, 0.3)', // defaultBackground
